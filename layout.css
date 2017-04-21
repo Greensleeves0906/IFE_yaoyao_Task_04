@@ -1,0 +1,53 @@
+
+table{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    border-collapse: collapse;
+    border:4px soild #000000;
+}
+table tr{
+    height: 50px;
+}
+table td{
+    width: 50px;
+    border:2px solid #CCCCCC;
+}
+div#row{
+    position: absolute;
+    top:25px;
+    left: 300px;
+    font-size:20px 
+}
+div#row span{
+    display: inline-block;
+    margin:0 21.5px; 
+}
+
+div#col{
+    position: absolute;;
+    top: 40px;
+    left: 270px;
+    font-size: 20px;
+    line-height: 30px;
+}
+div#input{
+    position: absolute;
+    left:300px;
+    top:560px;
+}
+div#block{
+    position: absolute;
+    top:302px;
+    left: 573px;
+    height: 28px;
+    width: 30px;
+    border:10px solid red;
+    border-color: blue transparent transparent transparent;
+    background-color: red;
+    transform: rotate(0deg);
+}
+div#input p{
+    font-size: 12px;
+    line-height: 5px;
+}
